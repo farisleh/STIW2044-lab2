@@ -8,7 +8,7 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: new ThemeData(primarySwatch: MaterialColor(0xFF880E4F, color)),
+      theme: new ThemeData(primarySwatch: MaterialColor(0xFFF44336, color)),
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
@@ -77,21 +77,21 @@ class _ProgressIndicatorState extends State<ProgressIndicator>
         value: animation.value,
         backgroundColor: Colors.black,
         valueColor:
-            new AlwaysStoppedAnimation<Color>(Color.fromRGBO(159, 30, 99, 1)),
+            new AlwaysStoppedAnimation<Color>(Color.fromRGBO(255, 0, 0, 1)),
       ),
     ));
   }
 }
 
 Map<int, Color> color = {
-  50: Color.fromRGBO(159, 30, 99, .1),
-  100: Color.fromRGBO(159, 30, 99, .2),
-  200: Color.fromRGBO(159, 30, 99, .3),
-  300: Color.fromRGBO(159, 30, 99, .4),
-  400: Color.fromRGBO(159, 30, 99, .5),
-  500: Color.fromRGBO(159, 30, 99, .6),
-  600: Color.fromRGBO(159, 30, 99, .7),
-  700: Color.fromRGBO(159, 30, 99, .8),
-  800: Color.fromRGBO(159, 30, 99, .9),
-  900: Color.fromRGBO(159, 30, 99, 1),
+  50: Color.fromRGBO(255, 0, 0, .1),
+  100: Color.fromRGBO(255, 0, 0, .2),
+  200: Color.fromRGBO(255, 0, 0, .3),
+  300: Color.fromRGBO(255, 0, 0, .4),
+  400: Color.fromRGBO(255, 0, 0, .5),
+  500: Color.fromRGBO(255, 0, 0, .6),
+  600: Color.fromRGBO(255, 0, 0, .7),
+  700: Color.fromRGBO(255, 0, 0, .8),
+  800: Color.fromRGBO(255, 0, 0, .9),
+  900: Color.fromRGBO(255, 0, 0, 1),
 };

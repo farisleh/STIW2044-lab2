@@ -60,7 +60,7 @@ class _LoginPageState extends State<LoginPage> {
                   minWidth: 300,
                   height: 50,
                   child: Text('Login'),
-                  color: Color(0xFFf5851f),
+                  color: Color(0xFFF44336),
                   textColor: Colors.white,
                   elevation: 15,
                   onPressed: _onLogin,
